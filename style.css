@@ -98,9 +98,11 @@ footer img {
     margin-top: 20px;
 }
 
-footer img:hover {
-    transform: scale(1.2);
+.escale {
+    transform: scale(1.1);
     cursor: pointer;
+    box-shadow: 10px 10px 10px 10px  #111 ;
+    transition: 0.3s;
 }
 
 #botao button {
