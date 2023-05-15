@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: darkmagenta;
+}
+
+header img {
+    margin: 15px 0px 15px 70px;
+}
+
+main {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#cont-text {
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgba(222, 213, 222, 0.825), rgba(91, 86, 90, 0.774));
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #333;
+}
+
+#cont-video {
+    color: white;
+}
+
+#cont-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+#cont-text h4 {
+    color: #333;
+}
+
+#cont-text p {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+
+}
+
+#hora {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#hora h1 {
+    margin: auto;
+}
+
+#cont-video h4 {
+   margin-left: 50px;
+   margin-top: 10px;
+   font-size: 20px;
+}
+
+#hora h1 {
+    color: darkmagenta;
+    margin-top: 20px;
+}
+
+video {
+    margin-left: 20px;
+}
+
+footer {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 20px;
+}
+
+footer h1 {
+    color: darkmagenta;
+    margin-top: 30px;
+}
+
+footer img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+footer img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#botao button {
+    margin-top: 150px;
+    width: 250px;
+    height: 60px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(114, 0, 114);
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-image: linear-gradient(to right, rgb(255, 0, 191) , rgb(111, 13, 96));
+    transition-duration: 9s;
+}
